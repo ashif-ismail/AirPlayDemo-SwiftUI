@@ -13,6 +13,7 @@
 		A39A5BED23F3F680007E40A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A39A5BEC23F3F680007E40A6 /* Assets.xcassets */; };
 		A39A5BF023F3F680007E40A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A39A5BEF23F3F680007E40A6 /* Preview Assets.xcassets */; };
 		A39A5BF323F3F680007E40A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A39A5BF123F3F680007E40A6 /* LaunchScreen.storyboard */; };
+		A39A5BFB23F41846007E40A6 /* ExtSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39A5BFA23F41846007E40A6 /* ExtSceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A39A5BEF23F3F680007E40A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A39A5BF223F3F680007E40A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A39A5BF423F3F680007E40A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A39A5BFA23F41846007E40A6 /* ExtSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtSceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				A39A5BE623F3F67B007E40A6 /* AppDelegate.swift */,
 				A39A5BE823F3F67B007E40A6 /* SceneDelegate.swift */,
+				A39A5BFA23F41846007E40A6 /* ExtSceneDelegate.swift */,
 				A39A5BEA23F3F67B007E40A6 /* ContentView.swift */,
 				A39A5BEC23F3F680007E40A6 /* Assets.xcassets */,
 				A39A5BF123F3F680007E40A6 /* LaunchScreen.storyboard */,
@@ -149,6 +152,7 @@
 				A39A5BE723F3F67B007E40A6 /* AppDelegate.swift in Sources */,
 				A39A5BE923F3F67B007E40A6 /* SceneDelegate.swift in Sources */,
 				A39A5BEB23F3F67B007E40A6 /* ContentView.swift in Sources */,
+				A39A5BFB23F41846007E40A6 /* ExtSceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

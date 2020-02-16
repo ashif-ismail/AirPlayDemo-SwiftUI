@@ -23,7 +23,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
         // Called when a new scene session is being created.
         // Use this method to select a configuration to create the new scene with.
-        return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
+        switch connectingSceneSession.role.rawValue {
+        case "UIWindowSceneSessionRoleApplication":
+            return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
+        case "UIWindowSceneSessionRoleExternalDisplay":
+            return UISceneConfiguration(name: "External Configuration", sessionRole: connectingSceneSession.role)
+        default:
+            fatalError("Unknown Configuration \(connectingSceneSession.role.rawValue)")
+        }
     }
 
     func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
